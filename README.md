@@ -8,4 +8,5 @@ To set up an app, do the following:
 
 1. Clone the repository
 2. Run migrations -> php artisan migrate
+3. Install assets -> npm install && npm run dev
 3. Run php dev server -> php laravel serve

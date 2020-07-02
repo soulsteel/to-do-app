@@ -1,1 +1,2 @@
 require('./bootstrap');
+flatpickr("#deadline", {});

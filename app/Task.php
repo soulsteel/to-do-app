@@ -11,5 +11,10 @@ class Task extends Model
     	'deadline',
     	'category_id'
     ];
+
+    public function category()
+    {
+        return $this->belongsTo('App\Category');
+    }
 }
 

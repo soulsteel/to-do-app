@@ -27,7 +27,7 @@
           </div>
 
           <div class="form-group">
-              <label for="deadline">Category:</label>
+              <label for="category">Category:</label>
                <select class="form-control" id="category" name="category_id">
                 @foreach ($categoriesOptions as $id => $name)
                   <option value="{{ $id }}">{{ $name }}</option>  
@@ -41,6 +41,3 @@
 </div>
 </div>
 @endsection
-<script>
-  flatpickr("#deadline", {});
-</script>

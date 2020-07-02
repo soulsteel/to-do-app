@@ -20,6 +20,7 @@
           <td>ID</td>
           <td>Name</td>
           <td>Deadline</td>
+          <td>Category</td>
           <td colspan = 2>Actions</td>
         </tr>
     </thead>
@@ -29,6 +30,7 @@
             <td>{{$task->id}}</td>
             <td>{{$task->name}}</td>
             <td>{{$task->deadline}}</td>
+            <td>test</td>
             <td>
                 <a href="{{ route('tasks.edit',$task->id)}}" class="btn btn-primary">Edit</a>
             </td>
